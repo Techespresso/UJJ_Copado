@@ -1,4 +1,55 @@
-.project
-.settings
-salesforce.schema
-Referenced Packages
+
+# Salesforce CLI cache and local files
+.sf/
+.sfdx/
+.localdevserver/
+.localdev
+
+# Salesforce deployment options
+deploy-options.json
+
+# LWC VS Code autocomplete
+**/lwc/jsconfig.json
+
+# LWC Jest coverage reports
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ESLint cache
+.eslintcache
+
+# Salesforce Code Analyzer results
+sca-results.csv
+sfca_results.json
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js dependencies
+node_modules/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# VS Code workspace settings (optional)
+# Uncomment if you do not want to track local VS Code settings
+# .vscode/
+
